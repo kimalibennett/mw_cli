@@ -1,0 +1,8 @@
+require "pry"
+require "nokogiri"
+require "bundler"
+require "open-uri"
+require "net/http"
+require_relative "../lib/scraper.rb"
+require_relative "../lib/mw_cli/AssaultRifle.rb"
+require_relative "../lib/mw_cli/cli.rb"
